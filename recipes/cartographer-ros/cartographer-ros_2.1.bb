@@ -110,6 +110,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=ros2"
 SRC_URI = "git://github.com/ros2/cartographer_ros;${ROS_BRANCH};protocol=https \
            file://0001-Add-qrb-slam-feature.patch \
+           file://0001-add-launch-file-for-gazebo-sim.patch \
 "
 SRCREV = "1bbf9af3d250ba7d17f9b2340e7fe01ac22cf7a7"
 S = "${WORKDIR}/git/cartographer_ros/"
@@ -119,6 +120,7 @@ PATCH_DIR = "${WORKDIR}/git/"
 do_patch() {
     cd ${PATCH_DIR}
     git apply ${WORKDIR}/0001-Add-qrb-slam-feature.patch
+    git apply ${WORKDIR}/0001-add-launch-file-for-gazebo-sim.patch
 }
 
 CXXFLAGS += "-fuse-ld=gold"
