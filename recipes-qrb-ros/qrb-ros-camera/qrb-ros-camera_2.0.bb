@@ -4,8 +4,8 @@ inherit ros_component robotics-package pkgconfig
 LICENSE  = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/${LICENSE};md5=550794465ba0ec5312d6919e203a55f9"
 
-SRC_URI = "git://github.com/qualcomm-qrb-ros/qrb_ros_camera.git;protocol=https;branch=main;subpath=qrb_ros_camera"
-SRCREV = "8f9598e0da29fb02af91f841a25a2cc7c1018601"
+SRC_URI = "git://github.com/qualcomm-qrb-ros/qrb_ros_camera.git;protocol=https;branch=stable/2.0.1;subpath=qrb_ros_camera"
+SRCREV = "65ec3edd2183411a02bb69c039abdf74f1eaf0b9"
 S = "${WORKDIR}/qrb_ros_camera"
 
 # Dependencies
