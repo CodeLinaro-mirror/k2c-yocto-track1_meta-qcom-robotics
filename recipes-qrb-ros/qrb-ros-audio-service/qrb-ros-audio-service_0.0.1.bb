@@ -43,7 +43,7 @@ DEPENDS += "${ROS_EXPORT_DEPENDS} ${ROS_BUILDTOOL_EXPORT_DEPENDS}"
 RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 
 SRC_URI = "git://github.com/qualcomm-qrb-ros/qrb_ros_audio_service.git;protocol=https;branch=main"
-SRCREV = "7ce0992ab496e63eca30a0af7b30ad96160e2320"
+SRCREV = "3c3864ae40b3faf51660dd383cdb9a3f90fe5df4"
 S = "${WORKDIR}/git/qrb_ros_audio_service"
 
 ROS_BUILD_TYPE = "ament_cmake"

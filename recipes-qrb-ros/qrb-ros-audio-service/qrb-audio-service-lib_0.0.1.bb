@@ -28,8 +28,7 @@ DEPENDS += "${ROS_EXPORT_DEPENDS} ${ROS_BUILDTOOL_EXPORT_DEPENDS}"
 RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 
 SRC_URI = "git://github.com/qualcomm-qrb-ros/qrb_ros_audio_service.git;protocol=https;branch=main"
-SRCREV = "7ce0992ab496e63eca30a0af7b30ad96160e2320"
-SRC_URI[sha256sum] = "fc15dd8cb58d75b392c5da532ec6d76389466d615d5368ecc522a85ac5ac9c2d"
+SRCREV = "3c3864ae40b3faf51660dd383cdb9a3f90fe5df4"
 
 S = "${WORKDIR}/git/qrb_audio_manager"
 

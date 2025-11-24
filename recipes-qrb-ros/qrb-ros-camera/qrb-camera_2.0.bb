@@ -39,8 +39,8 @@ DEPENDS += "${ROS_EXPORT_DEPENDS} ${ROS_BUILDTOOL_EXPORT_DEPENDS} ${ROS_TEST_DEP
 
 RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 
-SRC_URI = "git://github.com/qualcomm-qrb-ros/qrb_ros_camera.git;protocol=https;branch=main;subpath=qrb_camera"
-SRCREV = "cdc4908b348f8eecfb0e3cb8c1bba786d2fc0c98"
+SRC_URI = "git://github.com/qualcomm-qrb-ros/qrb_ros_camera.git;protocol=https;branch=stable/2.0.1;subpath=qrb_camera"
+SRCREV = "65ec3edd2183411a02bb69c039abdf74f1eaf0b9"
 S = "${WORKDIR}/qrb_camera"
 
 ROS_BUILD_TYPE = "ament_cmake"

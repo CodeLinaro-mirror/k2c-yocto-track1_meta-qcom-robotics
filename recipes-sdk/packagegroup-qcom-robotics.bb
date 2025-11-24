@@ -92,6 +92,8 @@ BASIC_DEPENDENCY += " \
     graphviz \
     ceres-solver \
     ${ROS_SDK_TARGET_PACKAGES} \
+    octomap-staticdev \
+    osqp-vendor-staticdev \
 "
 BASIC_DEPENDENCY:append:qcom-custom-bsp = " \
     sensor-client \

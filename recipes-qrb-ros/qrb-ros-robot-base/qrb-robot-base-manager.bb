@@ -36,7 +36,7 @@ SRC_URI = "git://github.com/qualcomm-qrb-ros/qrb_ros_robot_base.git;protocol=htt
 "
 S = "${WORKDIR}/git/qrb_robot_base_manager"
 
-SRCREV = "52170e5d389846c0c56fa95ac6ec19bf9c663d40"
+SRCREV = "5ca63b921aa5cc60927b511bff9eeb1bfc7e2a35"
 
 # define the build type : ament_cmake, ament_python, cmake etc...
 ROS_BUILD_TYPE = "ament_cmake"
