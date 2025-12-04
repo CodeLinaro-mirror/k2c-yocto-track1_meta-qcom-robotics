@@ -12,8 +12,7 @@ ROS_BUILD_DEPENDS = " \
 "
 
 ROS_BUILDTOOL_DEPENDS = " \
-    ament-cmake-auto-native \
-    ament-cmake-ros-native \
+    pkgconfig-native \
 "
 
 ROS_EXPORT_DEPENDS = ""
@@ -36,7 +35,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 SRC_URI = "git://github.com/qualcomm-qrb-ros/libqrc.git;protocol=https;branch=main"
 S = "${WORKDIR}/git/libqrc-udriver"
 
-SRCREV = "4a705a493009b22ff1d524b7706c122d4e9f9f97"
+SRCREV = "c146160f879ba483f5d72ccd47cdcce3d005afbc"
 
 # define the build type : ament_cmake, ament_python, cmake etc...
 ROS_BUILD_TYPE = "ament_cmake"
