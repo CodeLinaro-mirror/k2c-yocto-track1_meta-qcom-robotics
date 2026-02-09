@@ -13,7 +13,7 @@ DEPENDS += "yaml-cpp"
 DEPENDS += "libbsd"
 RDEPENDS:${PN} += "yaml-cpp"
 
-QCM6490_SHA256SUM = "bdfb11f809dff9ce69b7a2d09a4f692e26a5b031f56ca9b52c9cd4f29345d804"
+QCM6490_SHA256SUM = "e3b3c074be4a5e99133bef2d9ed8ef48d04dd0cf0ab5afa4e6813e9fe7737654"
 
 SRC_URI[qcm6490.sha256sum] = "${QCM6490_SHA256SUM}"
 
