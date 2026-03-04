@@ -47,7 +47,7 @@ DEPENDS += "${ROS_EXPORT_DEPENDS} ${ROS_BUILDTOOL_EXPORT_DEPENDS}"
 
 RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 
-ROS_BRANCH ?= "master"
+ROS_BRANCH ?= "humble"
 SRC_URI = "git://github.com/agilexrobotics/ranger_ros2.git;branch=${ROS_BRANCH};protocol=https"
 SRCREV = "35c3620ced04960dd8ee3e56bc6f4d2eb009aeda"
 S = "${WORKDIR}/git/ranger_bringup"
